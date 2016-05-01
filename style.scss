@@ -1,6 +1,9 @@
 ---
 ---
 
+# Includes
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -9,6 +12,7 @@
 
 html,
 body {
+  font-family: "Source Code Pro";
   margin: 0;
   padding: 0;
 }
@@ -370,6 +374,12 @@ tbody tr:nth-child(odd) th {
   a {
     color: #333;
   }
+}
+
+# Custom classes
+
+.machina {
+  @include
 }
 
 .highlight .hll { background-color: #ffffcc }
