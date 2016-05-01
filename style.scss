@@ -256,6 +256,10 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
+span {
+  color: #666;
+}
+
 .lead {
   font-size: 1.25rem;
 }
@@ -373,6 +377,21 @@ tbody tr:nth-child(odd) th {
   a {
     color: #333;
   }
+}
+
+// Custom Classes
+
+.machina {
+  img {
+    width: 50%;
+    @media screen and (max-width: 767px) {
+      width: 100%;
+    }
+  }
+}
+
+.hello {
+  color: #ff2a2a;
 }
 
 .highlight .hll { background-color: #ffffcc }
