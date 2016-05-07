@@ -457,6 +457,15 @@ span {
   }
 }
 
+.openbtn {
+  span {
+    &:hover,
+    &:focus {
+      cursor: pointer;
+    }
+  }
+}
+
 // End nav
 
 .highlight .hll { background-color: #ffffcc }
