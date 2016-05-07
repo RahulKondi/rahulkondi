@@ -441,9 +441,14 @@ span {
 .overlay-content {
   position: relative;
   top: 25%;
-  width: 100%;
-  text-align: center;
+  width: 90%;
   margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 38rem) {
+    width: 60%;
+  }
 }
 
 .closebtn {
