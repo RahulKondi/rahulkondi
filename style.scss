@@ -441,13 +441,15 @@ span {
 .overlay-content {
   position: relative;
   top: 25%;
-  width: 90%;
+  max-width: 38rem;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
 
   @media (min-width: 38rem) {
-    width: 60%;
+    //width: 60%;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
   }
 }
 
