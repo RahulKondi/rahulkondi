@@ -475,6 +475,15 @@ span {
   }
 }
 
+.search {
+  -webkit-appearance: none;
+  border-style: none;
+  border: 0px;
+  background-color: transparent;
+  font-size: 30px;
+  color: #ff2a2a;
+}
+
 // End nav
 
 .highlight .hll { background-color: #ffffcc }
