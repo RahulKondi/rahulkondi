@@ -35,3 +35,28 @@ function closeNav() {
   document.getElementById("nav").style.height = "0%";
 }
 </script>
+
+<div id="search" class="overlay">
+
+  <a href="javascript:void(0)" class="closebtn" onclick="closeSearch()">&times;</a>
+
+  <div class="overlay-content">
+    <h2 class="deusux-title">What are you looking for?</h2>
+    <input type="text" placeholder="Search..." class="search" name="search">
+  </div>
+
+</div>
+
+<div class="openbtn">
+  <span onclick="openSearch()">Search</span>
+</div>
+
+<script type="text/javascript">
+function openSearch() {
+  document.getElementById("search").style.height = "100%";
+}
+
+function closeSearch() {
+  document.getElementById("search").style.height = "0%";
+}
+</script>
